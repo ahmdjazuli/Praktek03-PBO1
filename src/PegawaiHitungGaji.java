@@ -6,5 +6,12 @@ public class PegawaiHitungGaji {
 		pg1.email = "ahmadjazuli111@gmail.com";
 		
 		pg1.cetakInfo();
+		
+		System.out.println("\n============== [Hitung Gaji Pegawai] ==================");
+		System.out.println("Gaji Awal \t\t = Rp "+20000);
+		System.out.println("Waktu Lembur \t\t = Rp "+2+" Jam");
+		System.out.println("Gaji Lembur \t\t = Rp "+pg1.hitungLembur());
+		System.out.println("Total Gaji Pegawai \t = Rp "+pg1.hitungGaji());
+		System.out.println("=============================================================");
 	}
 }
