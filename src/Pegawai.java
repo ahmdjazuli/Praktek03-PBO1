@@ -1,6 +1,6 @@
 public class Pegawai {
-	String nama,alamat,email;
-	double waktuKerja, waktuLembur, gajiPerJam, gajiLembur, gajiHasil;
+	private String nama,alamat,email;
+	private double waktuKerja, waktuLembur, gajiPerJam, gajiLembur, gajiHasil;
 	
 	void cetakInfo() { 
 		System.out.println("============== [ Data Pribadi Pegawai ] ==================");
