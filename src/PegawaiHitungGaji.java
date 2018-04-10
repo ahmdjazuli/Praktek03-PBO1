@@ -5,6 +5,7 @@ public class PegawaiHitungGaji {
 		pg1.setNama("Ahmad Jazuli");
 		pg1.setAlamat("Komplek Pangeran Antasari no.32 rt.3 rw.5");
 		pg1.setEmail("ahmadjazuli111@gmail.com");
+//		pg1.setJenisHonor("aktif selamanyya"); pg1 gk bisa akses si atribut private dari Class Child
 		
 		pg1.cetakInfo();
 		
@@ -17,5 +18,15 @@ public class PegawaiHitungGaji {
 		System.out.println("Gaji Lembur \t\t = Rp "+pg1.hitungLembur());
 		System.out.println("Total Gaji Pegawai \t = Rp "+pg1.hitungGaji());
 		System.out.println("=============================================================");
+		
+		// Pegawai Honor
+		PegawaiHonor pg2 = new PegawaiHonor();
+		pg2.setNama("Siti Aisyah");
+		pg2.setEmail("sitiAisyah777@gmail.com");
+		pg2.setAlamat("Sekumpul gang Muhibin 4, Martapura");
+		pg2.setJenisHonor("Aktif 2 Tahun");
+		pg2.cetakInfo();
+		System.out.print("Jenis Honor \t: "+pg2.getJenisHonor()+"\n");
+		pg2.throttle();
 	}
 }
